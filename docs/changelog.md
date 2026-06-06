@@ -1,5 +1,5 @@
 <!--
-SPDX-FileCopyrightText: {{year}} {{autor}}
+SPDX-FileCopyrightText: {{year}} {{author}}
 SPDX-License-Identifier: (MIT OR Beerware)
 -->
 
