@@ -50,8 +50,12 @@ def setup_placeholders() -> dict[str, str]:
         if placeholder == "year":
             continue
 
-        default = placeholder_replacements[placeholder]
-        input_str = input(f"> {placeholder} [{default}]:")
+        if placeholder == "project-template":
+            default = placeholder_replacements[placeholder]
+            input_str = input(f"> project name [{default}]:")
+        else:
+            default = placeholder_replacements[placeholder]
+            input_str = input(f"> {placeholder} [{default}]:")
 
         if input_str:
             if placeholder == "date":
