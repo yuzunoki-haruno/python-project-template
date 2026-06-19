@@ -1,7 +1,7 @@
 # Python Project Template
 
-**Release**: 1.0.0  
-**Date**: 2026-06-16
+**Release**: 1.1.0  
+**Date**: 2026-06-20
 
 ## Overview
 
