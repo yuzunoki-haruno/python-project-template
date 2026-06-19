@@ -17,7 +17,7 @@ def main():
     # Setup placeholders.
     placeholder_replacements = setup_placeholders()
 
-    # Clone project directry.
+    # Clone project directory.
     root = Path(".")
     root = clone_repository(root, placeholder_replacements)
 
@@ -40,7 +40,7 @@ def setup_placeholders() -> dict[str, str]:
         "project-template": "my-project",
         "description": "Python project",
         "author": "Example Author",
-        "email": "exsample.com",
+        "email": "example.com",
         "version": "0.1.0",
         "date": str(today),
         "year": str(today.year),
