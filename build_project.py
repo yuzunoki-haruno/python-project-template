@@ -86,7 +86,7 @@ def clone_repository(root: Path, placeholder_replacements: dict[str, str]) -> Pa
     shutil.rmtree(root / GitHub.repository / ".git")
     # Rename src directory in project directory.
     src_dir = pj_dir / "src" / "{{project-template}}"
-    src_dir.rename(src_dir.parent / new_name)
+    src_dir.rename(src_dir.parent / new_name.replace("-", "_"))
     # Rename project directory.
     new_root = pj_dir.rename(pj_dir.parent / new_name)
     return new_root
