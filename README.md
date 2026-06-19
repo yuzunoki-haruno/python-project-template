@@ -1,4 +1,4 @@
-# Python Project Tmplate
+# Python Project Template
 
 **Release**: 1.0.0  
 **Date**: 2026-06-16
