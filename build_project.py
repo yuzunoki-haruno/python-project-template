@@ -1,3 +1,6 @@
+# SPDX-FileCopyrightText: 2026 Haruno YUZUNOKI
+# SPDX-License-Identifier: (MIT OR Beerware)
+
 import datetime
 import re
 import shutil
@@ -32,7 +35,7 @@ def setup_placeholders() -> dict[str, str]:
     """Setup placeholders.
 
     Returns:
-        dict[str, str]: _description_
+        dict[str, str]: placeholder replacements
     """
     # initialize placeholder replacements.
     today = datetime.date.today()
