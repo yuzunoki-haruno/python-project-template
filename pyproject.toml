@@ -78,8 +78,8 @@ docstring-code-format = true
 [tool.ruff.lint.isort]
 combine-as-imports = true
 
-[tool.ty]
-src = ["src"]
+[tool.ty.src]
+include = ["src"]
 
 [tool.ty.rules]
 invalid-argument-type = "error"
